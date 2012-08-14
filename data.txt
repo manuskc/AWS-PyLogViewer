@@ -1,0 +1,20 @@
+The format of my log file is as follows, If your log file is not of the following format you might need to tweak reader.py to handle your format:
+
+FORMAT:
+DATE-TIME TYPE logger-message
+Statck trace if any
+
+EXAMPLE:
+
+2012-08-12 07:25:07,985 ERROR  org.app.server.util.FileUtil - File format not recoginzed. Skipping to next file.
+java.lang.IllegalArgumentException: Invalid file format
+	..........
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+
+
+
+You can also load data into logviewr db by giving the input to reader:
+
+$cat data.txt | ./reader.py
+

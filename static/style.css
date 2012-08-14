@@ -1,0 +1,15 @@
+table{
+background: #C8D7DF;
+}
+
+.info {
+background: #DAF7DA;
+}
+
+.warn {
+background : #F3DB9D;
+}
+
+.error {
+background: #F8B4A7;
+}

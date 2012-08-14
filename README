@@ -1,0 +1,24 @@
+Hi!
+
+This application is to aggregate logs from all machines on aws cloud and provide a UI to sort and filter logs based on various parameters.
+
+Yes, i know there are tons of awsome solutions available out there which serves the same purpose and are much more powerful, but this is my hack and i love it!
+
+Let me know your feedback when you use it :)
+
+HOW TO USE:
+1) Repalce admin.ssh with your private key
+2) Update aws username in logger.sh
+3) Update mongo db details in suit_up.sh
+4) Update server.txt with url's of all instances
+
+TO RUN:
+$ ./suit_up.sh
+
+COMING UP:
+Code clean up
+Move all configuration parameter to one file
+Make this project more awesome!
+
+Thank you!!
+Manu

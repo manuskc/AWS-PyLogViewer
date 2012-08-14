@@ -1,0 +1,3 @@
+Add list of public url of all instances
+One in each line
+Delete these three lines in file and make sure there are no extra lines
